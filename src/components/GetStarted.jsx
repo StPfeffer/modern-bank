@@ -19,5 +19,4 @@ const GetStarted = () => (
   </div>
 )
 
-
 export default GetStarted
