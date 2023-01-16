@@ -1,5 +1,4 @@
 import styles from './style';
-
 import { Billing, Business, CardDeal, Clients, CTA, Footer, Hero, Navbar, Stats, Testimonials } from './components';
 
 
@@ -19,7 +18,7 @@ const App = () => (
       </div>
     </div>
 
-    {/*  */}
+    {/* Body */}
     <div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>
       <div className={`${styles.boxWidth}`}>
         <Stats />
@@ -34,6 +33,5 @@ const App = () => (
     </div>
   </div>
 );
-
 
 export default App
